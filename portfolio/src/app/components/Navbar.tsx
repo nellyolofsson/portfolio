@@ -12,9 +12,10 @@ export default function Navbar() {
       </div>
 
       {/* 🔹 Centrera namnet */}
-      <h1 className="absolute left-1/2 transform -translate-x-1/2 text-lg font tracking-wide text-white font-sans z-20">
-        Hey there! 👋
+      <h1 className="absolute left-1/2 transform -translate-x-1/2 text-lg tracking-wide text-white font-sans z-20 hidden lg:block">
+       Hey there! 👋
       </h1>
+
 
       {/* 🔹 Högra hörnet - LinkedIn & GitHub */}
       <div className="flex space-x-6 z-20">

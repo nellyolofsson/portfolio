@@ -19,8 +19,8 @@ export default function Touch() {
           />
         </div>
         <div className="text-center md:text-left">
-          <p className="text-xl text-black mb-2">📧 <a href="mailto:nossfolonelly@gmail.com" className="text-blue-600 underline">nossfolonelly@gmail.com</a></p>
-          <p className="text-xl text-black mb-2">📞 <a href="tel:+46701234567" className="text-blue-600 underline">+46 708 46 92</a></p>
+          <p className="text-xl text-black mb-2">📧 <a href="mailto:nossfolonelly@gmail.com" className="text-black hover:text-blue-500 underline hover:no-underline transition-colors">nossfolonelly@gmail.com</a></p>
+          <p className="text-xl text-black mb-2">📞 <a href="tel:+467084692" className="text-black hover:text-blue-500 underline hover:no-underline transition-colors">+46 708 46 92</a></p>
           <div className="flex gap-4 justify-center md:justify-start mt-4">
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { title } from "process";
 
 
 export default function Projects() {
@@ -20,6 +21,12 @@ export default function Projects() {
         description: "My own portfolio, built with Next.js and Tailwind CSS.",
         img: "/portfolio.png",
         github: "https://github.com/nellyolofsson/portfolio"
+      },
+      {
+        title: "Own project",
+        description: "A project I built on my own, a platform for a company.",
+        img: "/frekvens.png",
+        github: "https://github.com/nellyolofsson/LightBalance/tree/main"
       }
     ];
   
