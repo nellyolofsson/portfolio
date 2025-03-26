@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { FaLinkedin, FaGithub } from "react-icons/fa"; // 🔹 Ikon för LinkedIn
-import Logo from "./Logo";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full p-5 bg-black text-white backdrop-blur-md flex justify-between items-center z-10 shadow-lg">
-      
+    <nav className="fixed top-0 left-0 w-full p-5 bg-black text-white backdrop-blur-md flex justify-between items-center z-10 shadow-lg relative">
       {/* 🔹 Vänstra hörnet - Länkar */}
       <div className="space-x-6 flex items-center font-sans">
         <Link href="#projects" className="text-lg font-semibold hover:text-gray-300 transition-all duration-300">Work</Link>
@@ -14,14 +12,14 @@ export default function Navbar() {
       </div>
 
       {/* 🔹 Centrera namnet */}
-      <h1 className="absolute left-1/2 transform -translate-x-1/2 text-s font tracking-wide text-white font-sans">
+      <h1 className="absolute left-1/2 transform -translate-x-1/2 text-lg font tracking-wide text-white font-sans z-20">
         Hey there! 👋
       </h1>
 
       {/* 🔹 Högra hörnet - LinkedIn & GitHub */}
-      <div className="flex space-x-6">
+      <div className="flex space-x-6 z-20">
         <a 
-          href="https://www.linkedin.com/in/ditt-linkedin" 
+          href="https://www.linkedin.com/in/nelly-olofsson-384444271/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-blue-400 transition-all duration-300"
@@ -37,7 +35,6 @@ export default function Navbar() {
           <FaGithub size={24} />
         </a>
       </div>
-
     </nav>
   );
 }

@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 export default function Projects() {
     const projects = [
       {
@@ -9,14 +12,14 @@ export default function Projects() {
       {
         title: "Litterplatform",
         description: "A collaborative project I built with a classmate – a platform for sharing lists.",
-        img: "litter.png",
+        img: "/",
         github: "https://github.com/nellyolofsson/litter"
       },
       {
-        title: "Todo App",
-        description: "En enkel men kraftfull todo-app med React och Redux.",
-        img: "/ny.jpg",
-        github: "https://github.com/nellyolofsson/api"
+        title: "Portfolio",
+        description: "My own portfolio, built with Next.js and Tailwind CSS.",
+        img: "/portfolio.png",
+        github: "https://github.com/nellyolofsson/portfolio"
       }
     ];
   
@@ -26,7 +29,15 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src={project.img} alt={project.title} className="w-full h-56 object-contain" />
+              <div className="relative w-full h-56">
+              <Image
+                src={project.img}
+                alt={project.title}
+                fill
+                className="object-cover"
+        
+              />
+              </div>
               <div className="p-4">
                 <h3 className="text-xl text-black font-semibold">{project.title}</h3>
                 <p className="text-gray-600 mt-2">{project.description}</p>
