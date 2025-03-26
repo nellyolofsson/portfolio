@@ -19,22 +19,21 @@ export default function About() {
          {/* Beskrivning */}
          <div className="text-xl text-gray-700 max-w-2xl text-center md:text-left">
           <p>
-            Hi! I'm Nelly Olofsson, a passionate web developer with a love for both frontend and backend technologies. 
-            My journey started with learning HTML, CSS, and JavaScript, and over time, I've developed expertise in modern frameworks such as React, Next.js.
+            Hi! I&apos;m Nelly Olofsson, a passionate web developer with a love for both frontend and backend technologies. 
+            My journey started with learning HTML, CSS, and JavaScript, and over time, I&apos;ve developed expertise in modern frameworks such as React, Next.js.
           </p>
           <p className="mt-4">
-            On the backend side, I've worked with technologies like Node.js, Express.js, and MongoDB to build robust APIs and handle databases effectively. 
+            On the backend side, I&apos;ve worked with technologies like Node.js, Express.js, and MongoDB to build robust APIs and handle databases effectively. 
           </p>
           <p className="mt-4">
             In addition to development, I have experience implementing CI/CD pipelines to automate testing, building, and deployment processes. For deployment and scalability, I have hands-on experience with Kubernetes (K8s).
           </p>
           <p className="mt-4">
-            I'm always looking for new challenges and opportunities to grow as a developer and contribute to impactful projects. 
-            I believe that great web development comes from the perfect blend of frontend and backend expertise, and I'm excited to continue improving my skills in both areas.
+            I&apos;m always looking for new challenges and opportunities to grow as a developer and contribute to impactful projects. 
+            I believe that great web development comes from the perfect blend of frontend and backend expertise, and I&apos;m excited to continue improving my skills in both areas.
           </p>
         </div>
       </div>
       </section>
     );
   }
-  
