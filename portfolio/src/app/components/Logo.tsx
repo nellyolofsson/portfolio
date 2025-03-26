@@ -28,7 +28,6 @@ export default function Logo() {
                   "I'm a Fullstack Developer.",
                   "I build modern web applications.",
                   "I create seamless digital experiences.",
-                  "I design sleek user interfaces.",
                   "I develop robust backend systems."
                 ]}
                 typeSpeed={50}
