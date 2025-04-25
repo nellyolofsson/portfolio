@@ -13,7 +13,7 @@ export default function Logo() {
          {/* Rund bild */}
          <div className="relative w-56 h-56 mx-auto mb-6">
           <Image
-            src="/nelly.jpg" // Byt ut denna med din bildfil
+            src="/nelly.jpg" 
             alt="Nelly Olofsson"
             layout="fill"
             objectFit="cover"
