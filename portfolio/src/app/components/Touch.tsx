@@ -12,7 +12,7 @@ export default function Touch() {
         <div className="relative w-40 h-40">
           {/* Lägg till QR-koden här */}
           <Image 
-            src="/qr_code.png" // Path till din QR-kod i public-mappen
+            src="/qr-code-4.png" // Path till din QR-kod i public-mappen
             alt="QR code to LinkedIn or CV"
             fill
             className="object-contain"
@@ -26,7 +26,7 @@ export default function Touch() {
         </div>
       </div>
       <a
-        href="/nellyCVSwe.pdf" 
+        href="/nellyCV.pdf" 
         download
         className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition"
       >
