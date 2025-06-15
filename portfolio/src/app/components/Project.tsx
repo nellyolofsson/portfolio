@@ -22,10 +22,10 @@ export default function Projects() {
         github: "https://github.com/nellyolofsson/portfolio"
       },
       {
-        title: "Own project",
-        description: "A project I built on my own, a platform for a company.",
-        img: "/frekvens.png",
-        github: "https://github.com/nellyolofsson/LightBalance/tree/main"
+        title: "Netflix",
+        description: "Netflix Data Visualization 2021, A project where I visualized Netflix data from 2021.",
+        img: "/FlixFlow.png",
+        github: "https://github.com/nellyolofsson/netflix"
       }
     ];
   
